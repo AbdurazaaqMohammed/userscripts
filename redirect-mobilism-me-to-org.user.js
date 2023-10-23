@@ -18,10 +18,6 @@
     // Get the current URL
     var url = window.location.href;
 
-    // Check if "&hilit" is in the URL
-    var me = url.indexOf(".me");
-
-
     var org = url.replace(".me", ".org");
 
     // redirect to .org
