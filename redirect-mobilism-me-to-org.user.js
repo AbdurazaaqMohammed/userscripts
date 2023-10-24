@@ -2,7 +2,7 @@
 // @name        Redirect Mobilism.me to Mobilism.org
 // @namespace   https://github.com/fxolan/userscripts
 // @version     1.0
-// @description Removes unnecessary highlight from Mobilism pages triggered when clicking on a search result to prevent potential issues with external links.
+// @description Redirect Mobilism.me to Mobilism.org so I don't have to log in on both
 // @match       *://forum.mobilism.me/*
 // @grant       none
 // @run-at      document-start
