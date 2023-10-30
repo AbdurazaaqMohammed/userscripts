@@ -14,12 +14,6 @@
 
 (function() {
     'use strict';
-
-    // Get the current URL
-    var url = window.location.href;
-
-    var org = url.replace(".me", ".org");
-
-    // redirect to .org
-    window.location.href = org;
+    
+    window.location.href = window.location.href.replace(".me", ".org");
 })();
