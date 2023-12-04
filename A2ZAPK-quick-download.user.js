@@ -3,8 +3,10 @@
 // @namespace   https://github.com/fxolan/userscripts
 // @version     1.0
 // @description Redirect to download page when you click an app on A2ZAPK
-// @match       *://a2zapk.*/1*
-// @match       *://a2zapk.*/dload/*
+// @match       https://a2zapk.com/1*
+// @match       https://a2zapk.com/dload/*
+// @match       https://a2zapk.io/1*
+// @match       https://a2zapk.io/dload/*
 // @grant       none
 // @run-at      document-start
 // @homepage    https://github.com/fxolan/userscripts
