@@ -1,29 +1,27 @@
 // ==UserScript==
 // @name         FreeRice Multiplication Script/Bot
 // @namespace    https://github.com/fxolan
-// @version      1
-// @description  Userscript to automatically play FreeRice multiplication game
+// @version      1.0.1
+// @description  Automatically play FreeRice multiplication table
 // @author       Abdurazaaq Mohammed
-// @match        https://play.freerice.com/categories/multiplication-table
+// @match        *://*.freerice.com/categories/multiplication-table
 // @grant        none
 // @homepage     https://github.com/fxolan/userscripts
 // @license      The Unlicense
 // @supportURL   https://github.com/fxolan/userscripts/issues
 // ==/UserScript==
- 
+
 function eval() {
- 
-  let text = document.querySelector('.card-title').innerText;
- 
-  let numbers = text.split(' x ');
- 
+
+  const numbers = document.querySelector('.card-title').innerText.split(' x ');
+
   return numbers[0] * numbers[1];
 }
- 
+
 function clickAnswer() {
-  let answers = document.querySelectorAll('.card-button');
- 
-  for (let i = 0; i < answers.length; i++) {
+  const answers = document.querySelectorAll('.card-button');
+
+  for (i = 0; i < answers.length; i++) {
     if (answers[i].innerText == eval()) {
       answers[i].click();
       break;
