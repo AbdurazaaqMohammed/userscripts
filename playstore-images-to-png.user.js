@@ -2,7 +2,7 @@
 // @name        Play Store Images to PNG
 // @namespace   https://github.com/fxolan/userscripts
 // @author      Abdurazaaq Mohammed
-// @version     1.0
+// @version     1.0.1
 // @description Redirect Google Play Store images to ezgif webp to png converter.
 // @match       *://play-lh.googleusercontent.com/*
 // @grant       none
@@ -13,11 +13,6 @@
 // ==/UserScript==
 
 (function() {
-    'use strict';
-
-    // Get the current URL
-    var url = window.location.href;
-
-    // redirect to ezgif
-    window.location.href = "https://ezgif.com/webp-to-png?url=" + url;
+  'use strict';
+  window.location.href = "https://ezgif.com/webp-to-png?url=" + window.location.href;
 })();
