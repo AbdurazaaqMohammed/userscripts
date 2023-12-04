@@ -4,7 +4,7 @@
 // @version      1.0.1
 // @description  Automatically play FreeRice multiplication table
 // @author       Abdurazaaq Mohammed
-// @match        *://*.freerice.com/categories/multiplication-table
+// @match        https://play.freerice.com/categories/multiplication-table
 // @grant        none
 // @homepage     https://github.com/fxolan/userscripts
 // @license      The Unlicense
