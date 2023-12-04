@@ -2,7 +2,7 @@
 // @name         Link Images on Playstore
 // @namespace    https://github.com/fxolan/userscripts
 // @version      1.0.1
-// @description  Open full page link of image when clicked on Google Play app page
+// @description  Open full page link of image when clicked on Google Play app pages
 // @author       Abdurazaaq Mohammed
 // @match        *://play.google.com/store/apps/*
 // @grant        none
