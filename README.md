@@ -12,14 +12,14 @@ It does not block ads but should work with any adblocker including via hosts.
 # [Playstore Images to PNG](https://github.com/fxolan/userscripts/raw/main/playstore-images-to-png.user.js)
 Redirect image links from Google Play to Ezgif WEBP to PNG converter. Meant to be used with the scripts below.
 
-# Ezgif [Auto Convert](https://github.com/fxolan/userscripts/raw/main/ezgif-auto-convert.user.js)https://github.com/fxolan/userscripts/raw/main/ezgif-auto-convert.user.js
+# Ezgif [Auto Convert](https://github.com/fxolan/userscripts/raw/main/ezgif-auto-convert.user.js)
 Automatically clicks the Convert button on Ezgif after you upload an image to convert.
 
-# [Ezgif Quick Link Copy](https://github.com/fxolan/userscripts/raw/main/ezgif-quick-link-copy.user.js)https://github.com/fxolan/userscripts/raw/main/ezgif-quick-link-copy.user.js
+# [Ezgif Quick Link Copy](https://github.com/fxolan/userscripts/raw/main/ezgif-quick-link-copy.user.js)
 Adds a button to quickly copy the converted image link to ezgif
 
-# [FreeRice Multiplication Script](https://github.com/fxolan/userscripts/raw/main/freerice-auto-script.user.js)https://github.com/fxolan/userscripts/raw/main/freerice-auto-script.user.js
+# [FreeRice Multiplication Script](https://github.com/fxolan/userscripts/raw/main/freerice-auto-script.user.js)
 Automatically play FreeRice multiplication table
 
-# [Link Images on Playstore](https://github.com/fxolan/userscripts/raw/main/link-playstore-images.user.js)https://github.com/fxolan/userscripts/raw/main/link-playstore-images.user.js
+# [Link Images on Playstore](https://github.com/fxolan/userscripts/raw/main/link-playstore-images.user.js)
 Open full page link of image when clicked on Google Play app pages
