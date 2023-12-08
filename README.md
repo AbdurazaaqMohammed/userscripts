@@ -9,6 +9,9 @@ Redirect to download page when you click an app on A2ZAPK and starts the downloa
 Skips some delays along the way, but the download still has to load.
 It does not block ads but should work with any adblocker including via hosts.
 
+# [YouTube Download via SaveFrom](https://github.com/fxolan/userscripts/raw/main/yt-download-via-savefrom.user.js)
+Adds buttons in userscript manager on YouTube videos to go to SaveFrom and get video or audio, and automatically selects and downloads the highest quality video/audio on SaveFrom links
+
 # [Playstore Images to PNG](https://github.com/fxolan/userscripts/raw/main/playstore-images-to-png.user.js)
 Redirect image links from Google Play to Ezgif WEBP to PNG converter. Meant to be used with the scripts below.
 
