@@ -18,8 +18,6 @@ Adds buttons in userscript manager on YouTube videos to go to SaveFrom and get v
 ##  [Remove file name from Apkadmin URLs](https://github.com/fxolan/userscripts/raw/main/remove-apkadmin-file-name.user.js)
  Removes unnecessary file name from Apkadmin URLs. This should be applicable to other websites too.
 
-##  [Ezgif Quick Link Copy](https://github.com/fxolan/userscripts/raw/main/ezgif-quick-link-copy.user.js)
-Adds a button to quickly copy the converted image link to ezgif
 
 # Playstore and Ezgif scripts
 The following scripts are meant to be used together to convert images from the Play Store to PNGs and optionally upload them to Mobilism Images with one click.
@@ -35,3 +33,6 @@ Automatically clicks the Convert button on Ezgif after you upload an image to co
 
 ##  [Upload image from Ezgif to Mobilism Images](https://github.com/fxolan/userscripts/raw/main/upload-from-ezgif-to-mobilism.user.js)
 Upload the converted image from ezgif to Mobilism and copies the image link after converting it.
+
+##  [Ezgif Quick Link Copy](https://github.com/fxolan/userscripts/raw/main/ezgif-quick-link-copy.user.js)
+Adds a button to quickly copy the converted image link to ezgif
