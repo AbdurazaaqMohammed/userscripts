@@ -1,32 +1,26 @@
 // ==UserScript==
 // @name         Stop Old Reddit asking to login
 // @namespace    https://github.com/fxolan
-// @author       Abdurazaaq Mohammed
-// @version      1.0
+// @version      1.1.1
 // @description  Remove the login fields from Old Reddit
-// @match        *://*old.reddit.com/*
-// @match        *://*np.reddit.com/*
+// @match        https://old.reddit.com/*
+// @match        https://np.reddit.com/*
 // @grant        none
 // @homepage     https://github.com/fxolan/userscripts
-// @license      The Unlicense
 // @supportURL   https://github.com/fxolan/userscripts/issues
+// @license      The Unlicense
 // ==/UserScript==
 
 (function() {
-    'use strict';
+  'use strict';
 
-    var loginField = document.getElementById('login_login-main');
-    if (loginField) {
-        loginField.style.display = 'none';
-    }
+  function hideElement(s) {
+    document.querySelector(s).remove();
+  }
 
-    var wantToJoin = document.getElementsByClassName('user')[0];
-    if (wantToJoin) {
-        wantToJoin.style.display = 'none';
-    }
-
-    var separator = document.querySelector('#header-bottom-right > .separator');
-    if (separator) {
-        separator.style.display = 'none';
-    }
+  hideElement('#login_login-main');
+  hideElement('.user');
+  hideElement('#header-bottom-right > .separator');
+  hideElement('.title.selected');
+  hideElement('.toggle.subscribe-button.fancy-toggle-button');
 })();
