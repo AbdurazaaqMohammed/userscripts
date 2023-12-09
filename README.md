@@ -2,7 +2,7 @@
 Userscripts developed by me
 
 # Installation
-Click on any script then click "Raw" (the links below are raw links) and your userscript manager should open. If you are using Cromite you may have to save the userscript and load it in Settings.
+Click on any script then click "Raw" (the links below are already raw links) and your userscript manager should open. If you are using Cromite you may have to save the userscript and load it in Settings.
 
 ##  [A2ZAPK Quick Download](https://github.com/fxolan/userscripts/raw/main/A2ZAPK-quick-download.user.js)
 Redirect to download page when you click an app on A2ZAPK and starts the download, even if the anti-adblock message is showing.
