@@ -27,5 +27,8 @@ Adds a button to quickly copy the converted image link to ezgif
 # [Link Images on Playstore](https://github.com/fxolan/userscripts/raw/main/link-playstore-images.user.js)
 Open full page link of image when clicked on Google Play app pages
 
+# [Upload image from Ezgif to Mobilism Images](https://github.com/fxolan/userscripts/raw/main/upload-from-ezgif-to-mobilism.user.js)
+Upload the converted image from ezgif to Mobilism and copies the image link after converting it.
+
 # [Remove file name from Apkadmin URLs](https://github.com/fxolan/userscripts/raw/main/remove-apkadmin-file-name.user.js)
  Removes unnecessary file name from Apkadmin URLs. This should be applicable to other websites too.
