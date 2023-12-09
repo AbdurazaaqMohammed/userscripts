@@ -18,6 +18,8 @@ Adds buttons in userscript manager on YouTube videos to go to SaveFrom and get v
 ##  [Remove file name from Apkadmin URLs](https://github.com/fxolan/userscripts/raw/main/remove-apkadmin-file-name.user.js)
  Removes unnecessary file name from Apkadmin URLs. This should be applicable to other websites too.
 
+## [Format Play Store app info for Mobilism](https://github.com/fxolan/userscripts/raw/main/format-playstore-info-for-mobilism.user.js)
+Copy information of apps from Play Store and format it to post on Mobilism
 
 # Playstore and Ezgif scripts
 The following scripts are meant to be used together to convert images from the Play Store to PNGs and optionally upload them to Mobilism Images with one click.
