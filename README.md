@@ -21,6 +21,9 @@ Adds buttons in userscript manager on YouTube videos to go to SaveFrom and get v
 ## [Format Play Store app info for Mobilism](https://github.com/fxolan/userscripts/raw/main/format-playstore-info-for-mobilism.user.js)
 Copy information of apps from Play Store and format it to post on Mobilism
 
+## [GitHub - open closed issues if there are no open issues](https://github.com/fxolan/userscripts/raw/main/github-issues-fix.user.js)
+Automatically opens closed issues if there are no open issues on GitHub issue pages.
+
 # Playstore and Ezgif scripts
 The following scripts are meant to be used together to convert images from the Play Store to PNGs and optionally upload them to Mobilism Images with one click.
 
