@@ -2,10 +2,12 @@
 // @name        Remove highlight from Mobilism
 // @namespace   https://github.com/fxolan
 // @author       Abdurazaaq Mohammed
-// @version     1.0.1
+// @version     1.0.2
 // @description Removes unnecessary highlight from Mobilism pages triggered when clicking on a search result to prevent potential issues with external links.
-// @match       *://forum.mobilism.org/viewtopic.php?f=*
-// @match       *://forum.mobilism.me/viewtopic.php?f=*
+// @match       https://forum.mobilism.org/viewtopic.php?f=*
+// @match       https://forum.mobilism.me/viewtopic.php?f=*
+// @match       https://forum.mobilism.org/search.php?*
+// @match       https://forum.mobilism.me/search.php?*
 // @grant       none
 // @run-at      document-start
 // @homepage    https://github.com/fxolan/userscripts
@@ -16,9 +18,26 @@
 (function() {
   'use strict';
 
+
   const url = window.location.href;
+  if (url.includes('viewtopic')) {
+    const index = url.indexOf("&hilit");
+    if (index > -1) window.location.href = url.substring(0, index);
+  } else {
+      addEventListener("load", (event) => {
+        const topics = document.querySelectorAll('.topictitle');
+        const latestPosts = document.querySelectorAll('a[rel="tooltip"]');
+        const toBeReplaced = '&hilit=' + document.querySelector('h3 > [href^="./search.php"]').innerText.replaceAll(' ', '+');
 
-  const index = url.indexOf("&hilit");
+        for (let i = 0; i < topics.length; i++) {
+          const topic = topics[i];
+          const latestPost = latestPosts[i];
+          const topicLink = $(topic).attr('href').toString();
+          const latestPostLink = $(latestPost).attr('href').toString();
 
-  if (index > -1) window.location.href = url.substring(0, index);
+          topic.setAttribute('href', topicLink.replace(toBeReplaced, ''));
+          latestPost.setAttribute('href', latestPostLink.replace(toBeReplaced, ''));
+        }
+      });
+  }
 })();
