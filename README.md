@@ -36,8 +36,11 @@ Redirect image links from Google Play to Ezgif WEBP to PNG converter. Meant to b
 ##  Ezgif [Auto Convert](https://github.com/fxolan/userscripts/raw/main/ezgif-auto-convert.user.js)
 Automatically clicks the Convert button on Ezgif after you upload an image to convert.
 
-##  [Upload image from Ezgif to Mobilism Images](https://github.com/fxolan/userscripts/raw/main/upload-from-ezgif-to-mobilism.user.js)
-Upload the converted image from ezgif to Mobilism and copies the image link after converting it.
+##  [Upload image from Ezgif to Mobilism Images](https://github.com/fxolan/userscripts/raw/main/upload-img-to-mobilism.user.js)
+Add a button to upload any direct image to Mobilism and copies the image link after converting it.
+
+## [Ezgif open direct link after converting](https://github.com/fxolan/userscripts/raw/main/ezgif-open-direct-image-after-convert.user.js)
+Open direct link to the image after converting on Ezgif
 
 ##  [Ezgif Quick Link Copy](https://github.com/fxolan/userscripts/raw/main/ezgif-quick-link-copy.user.js)
 Adds a button to quickly copy the converted image link to ezgif
