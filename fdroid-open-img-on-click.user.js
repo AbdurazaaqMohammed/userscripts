@@ -2,7 +2,7 @@
 // @name         Open F-Droid Images in New Tab
 // @namespace    https://github.com/fxolan/userscripts
 // @author       Abdurazaaq Mohammed
-// @version      1.9
+// @version      1.0
 // @description  Open F-Droid images in a new tab when clicked
 // @match        https://f-droid.org/*/packages/*
 // @run-at       document-start
