@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Upload image to Mobilism Images
 // @namespace    https://github.com/fxolan
-// @version      1.1
+// @version      1.1.1
 // @description  Add button to direct image pages to upload Mobilism, resizing if the image is too large.
 // @author       Abdurazaaq Mohammed
 // @match        https://images.mobilism.org/
@@ -94,6 +94,6 @@
     document.querySelector(".new-width.number.text").value = GM_getValue('newWidth');
     document.getElementById('ar').selectedIndex = 2;
   }
-  else if (url.includes('ezgif.com/tmp/')) goToMobilism();
+  else if (url.includes('ezgif.com/tmp/') || url.startsWith('https://f-droid.org/')) goToMobilism();
   else addButton();
 })();
