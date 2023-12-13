@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Copy information of apps from Play Store to post on Mobilism
 // @namespace    https://github.com/fxolan/userscripts
-// @version      1.0.1
+// @version      1.0.2.1
 // @description  Copy information of apps from Play Store and format it to post on Mobilism
 // @author       Abdurazaaq Mohammed
 // @match        https://play.google.com/store/apps/*
@@ -26,7 +26,7 @@
       const version = document.querySelector("#yDmH0d > div:nth-child(30) > div.VfPpkd-wzTsW > div > div > div > div > div.fysCi > div:nth-child(5) > div:nth-child(2) > div.reAt0").innerText;
       const desc = document.querySelector("#yDmH0d > div:nth-child(30) > div.VfPpkd-wzTsW > div > div > div > div > div.fysCi > div:nth-child(1)").innerText;
       var changelog = document.querySelector("#yDmH0d > c-wiz.SSPGKf.Czez9d > div > div > div.tU8Y5c > div.wkMJlb.YWi3ub > div > div.qZmL0 > div:nth-child(1) > c-wiz:nth-child(3) > section > div > div").innerText;
-      if (changelog.startsWith('This app may share')) changelog = document.querySelector("#yDmH0d > c-wiz.SSPGKf.Czez9d > div > div > div.tU8Y5c > div.wkMJlb.YWi3ub > div > div.qZmL0 > div:nth-child(1) > c-wiz:nth-child(5) > section > div > div").innerText;
+      if (changelog.startsWith('This app may share') || changelog.startsWith('No data shared')) changelog = document.querySelector("#yDmH0d > c-wiz.SSPGKf.Czez9d > div > div > div.tU8Y5c > div.wkMJlb.YWi3ub > div > div.qZmL0 > div:nth-child(1) > c-wiz:nth-child(5) > section > div > div").innerText;
       const firstLine = desc.split('\n')[0];
       const postDesc = desc.split('\n').slice(1).join('\n');
       const postTitle = '[b]' + title + ' v' + version + '[/b]';
