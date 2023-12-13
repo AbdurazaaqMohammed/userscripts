@@ -24,11 +24,14 @@ Copy information of apps from Play Store and format it to post on Mobilism
 ## [GitHub - open closed issues if there are no open issues](https://github.com/fxolan/userscripts/raw/main/github-issues-fix.user.js)
 Automatically opens closed issues if there are no open issues on GitHub issue pages.
 
-# Playstore and Ezgif scripts
+# Playstore, F-Droid and Ezgif scripts
 The following scripts are meant to be used together to convert images from the Play Store to PNGs and optionally upload them to Mobilism Images with one click.
 
+##  [Link Images on F-Droid](https://github.com/fxolan/userscripts/raw/main/fdroid-open-img-on-click.user.js)
+Open full page link of image in a new tab when clicked on F-Droid app pages
+
 ##  [Link Images on Playstore](https://github.com/fxolan/userscripts/raw/main/link-playstore-images.user.js)
-Open full page link of image when clicked on Google Play app pages
+Open full page link of image in a new tab when clicked on Google Play app pages
 
 ##  [Playstore Images to PNG](https://github.com/fxolan/userscripts/raw/main/playstore-images-to-png.user.js)
 Redirect image links from Google Play to Ezgif WEBP to PNG converter. Meant to be used with the scripts below.
