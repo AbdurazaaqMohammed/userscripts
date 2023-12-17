@@ -1,0 +1,60 @@
+// ==UserScript==
+// @name         Copy information of apps from F-Droid to post on Mobilism
+// @namespace    https://github.com/fxolan/userscripts
+// @version      1.0
+// @description  Add a button to F-Droid app pages to copy information of apps from F-Droid and format it to post on Mobilism
+// @author       Abdurazaaq Mohammed
+// @match        https://f-droid.org/*/packages*
+// @grant        GM_setClipboard
+// @license      The Unlicense
+// @homepage     https://github.com/fxolan/userscripts
+// @supportURL   https://github.com/fxolan/userscripts/issues
+// ==/UserScript==
+
+(function() {
+  'use strict';
+
+  function addButton() {
+    const container = document.createElement('div');
+    container.style.position = 'fixed';
+    container.style.top = '10px';
+    container.style.left = '10px';
+
+    const button = document.createElement('button');
+    button.innerText = 'Format and Copy';
+    button.addEventListener('click', getInfo);
+
+    container.appendChild(button);
+    document.body.appendChild(container);
+  }
+
+  function getInfo() {
+      const title = document.querySelector('h3').textContent.trim();
+      const overview = document.querySelector('body > div > div > div.article-area > article > header > div > div').textContent.trim();
+      const requiredVersion = document.querySelector("#latest > p.package-version-requirement").textContent.trim().replace('This version requires ', '');
+      const version = document.querySelector("#latest > div.package-version-header > b").textContent.trim().replace('Version ', 'v');
+      const postDesc = document.querySelector("body > div > div > div.article-area > article > div.package-description").textContent.trim().replace(/\p{Emoji}/gu, '');
+      const changelog = document.querySelector("body > div > div > div.article-area > article > div.package-whats-new > div:nth-child(2)") ? document.querySelector("body > div > div > div.article-area > article > div.package-whats-new > div:nth-child(2)").textContent.trim().replace(/\p{Emoji}/gu, '') : 'No changelog';
+      const postTitle = `[b]${title} ${version}[/b]`;
+      const postRequirements = `[u]Requirements:[/u] ${requiredVersion}`;
+      const postOverview = `[u]Overview:[/u] ${overview}`;
+      const img = `YOU STILL HAVE TO PUT THE IMAGE\n[break]`;
+      const modInfo = ''; //put mod info if you want
+      const postChangelog = `[u]What's New:[/u]\n${changelog}`;
+      const adsField = '[b]This app has no advertisements[/b]';
+      const playstoreLink = `[u]More Info:[/u]\n[code]${window.location.href}[/code]`;
+      const latestDL = document.querySelector('#latest > p.package-version-download > b > a'); //todo: check if there are different architectures and adjust accordingly
+      const dlLinks = `[u]Download Instructions:[/u]\n\nMirror:\n${latestDL}\n`;
+      const msg = 'Trouble downloading? Read [url=https://forum.mobilism.org/viewtopic.php?f=19&t=649944][b]This[/b][/url].';
+      const fullInfo = `${postTitle}\n${postRequirements}\n${postOverview}\n\n${img}\n${postDesc}\n${modInfo}\n${postChangelog}\n\n${adsField}\n\n${playstoreLink}\n${dlLinks}\n${msg}`;
+
+      if (fullInfo) {
+        GM_setClipboard(fullInfo);
+        alert('Copied info to clipboard.');
+      } else {
+        alert('Error; try increase the loading time in the script');
+      }
+  }
+
+  addButton();
+})();
