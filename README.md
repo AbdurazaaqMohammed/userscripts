@@ -21,6 +21,9 @@ Adds buttons in userscript manager on YouTube videos to go to SaveFrom and get v
 ## [Format Play Store app info for Mobilism](https://github.com/fxolan/userscripts/raw/main/format-playstore-info-for-mobilism.user.js)
 Copy information of apps from Play Store and format it to post on Mobilism
 
+## [Copy information of apps from F-Droid to post on Mobilism](https://github.com/fxolan/userscripts/raw/main/format-fdroid-app-info-for-mobilism.user.js)
+Add a button to F-Droid app pages to copy information of apps from F-Droid and format it to post on Mobilism
+
 ## [GitHub - open closed issues if there are no open issues](https://github.com/fxolan/userscripts/raw/main/github-issues-fix.user.js)
 Automatically opens closed issues if there are no open issues on GitHub issue pages.
 
