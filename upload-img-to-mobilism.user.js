@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Upload image to Mobilism Images
 // @namespace    https://github.com/fxolan
-// @version      1.1.1
+// @version      1.2
 // @description  Add button to direct image pages to upload Mobilism, resizing if the image is too large.
 // @author       Abdurazaaq Mohammed
 // @match        https://images.mobilism.org/
@@ -49,10 +49,14 @@
     const image = document.querySelector('img');
     const h = image.naturalHeight;
     const w = image.naturalWidth;
+    checkImageSize();
     if (needsResize(h, w)) {
       setNewRes(h, w, h/w)
       window.location.href = 'https://ezgif.com/resize?url=' + url;
     }
+    else if (GM_getValue('needsCompress')) {
+      window.location.href = 'https://ezgif.com/optimize?url=' + url;
+     }
     else {
       GM_setValue('u', url);
       window.location.href = mobilism;
@@ -70,6 +74,22 @@
     link.click();
     link.click();
   }
+
+  function checkImageSize() {
+    fetch(url)
+      .then(response => {
+        if (response.ok) {
+          return response;
+        }
+        throw new Error('Network response was not ok.');
+      })
+      .then(response => {
+        // Access the Content-Length header to get the file size
+        const contentLength = response.headers.get('Content-Length');
+        if (contentLength > 4000000) GM_setValue('needsCompress', true);
+      })
+      .catch(error => console.error('Error fetching image:', error));
+}
 
   function needsResize(h, w) {
     return h>2499 || w>2499;
