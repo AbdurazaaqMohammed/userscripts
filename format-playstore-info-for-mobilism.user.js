@@ -25,7 +25,7 @@
       var appVersion = document.querySelector("#yDmH0d > div.VfPpkd-Sx9Kwc.cC1eCc.UDxLd.PzCPDd.HQdjr.VfPpkd-Sx9Kwc-OWXEXe-FNFY6c > div.VfPpkd-wzTsW > div > div > div > div > div.fysCi > div:nth-child(3) > div:nth-child(3) > div.reAt0").textContent;
       var requiredVersion = document.querySelector('#yDmH0d > div.VfPpkd-Sx9Kwc.cC1eCc.UDxLd.PzCPDd.HQdjr.VfPpkd-Sx9Kwc-OWXEXe-FNFY6c > div.VfPpkd-wzTsW > div > div > div > div > div.fysCi > div:nth-child(3) > div:nth-child(1) > div.reAt0').textContent;
       if (requiredVersion.startsWith('Varies with device')) {
-        for (let i=5; i<5+6; i++) { // check version and requirements from your linked google devices
+        for (let i=5; i<5+6; i++) { // check version and requirements from your linked google devices. replace '5+6' with 5 + number of devices linked to your google account. note this takes the first existing version from your compatible devices. it may be outdated, you might want to check it from apkpure.
           requiredVersion = "#yDmH0d > div.VfPpkd-Sx9Kwc.cC1eCc.UDxLd.PzCPDd.HQdjr.VfPpkd-Sx9Kwc-OWXEXe-FNFY6c > div.VfPpkd-wzTsW > div > div > div > div > div.fysCi > div:nth-child(" + i + ") > div:nth-child(5) > div.reAt0";
           if (document.querySelector(requiredVersion)) {
             appVersion =  document.querySelector(requiredVersion.replace('div:nth-child(5) > div.reAt0', 'div:nth-child(2) > div.reAt0')).textContent;
