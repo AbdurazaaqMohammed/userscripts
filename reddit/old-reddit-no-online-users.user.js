@@ -2,10 +2,10 @@
 // @name         No Online Users
 // @namespace    https://github.com/fxolan
 // @author       Abdurazaaq Mohammed
-// @version      1.0
+// @version      1.0.1
 // @description  Remove online users info from Old Reddit
-// @match        *://*old.reddit.com/*
-// @match        *://*np.reddit.com/*
+// @match        https://old.reddit.com/r/*
+// @match        https://np.reddit.com/r/*
 // @grant        none
 // @license      The Unlicense
 // @homepage     https://github.com/fxolan/userscripts
@@ -14,15 +14,6 @@
  
 (function() {
     'use strict';
- 
-    var subs = document.querySelector('.subscribers');
-    if (subs) {
-        subs.style.display = 'none';
-    }
- 
-    var online = document.querySelector('.users-online');
-    if (online) {
-        online.style.display = 'none';
-    }
- 
+    document.querySelector('.subscribers').remove();
+    document.querySelector('.users-online').remove();
 })();
