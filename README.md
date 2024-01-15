@@ -52,7 +52,7 @@ Open direct link to the image after converting on Ezgif
 Adds a button to quickly copy the converted image link to ezgif
 
 # Reddit scripts
-Scripts designed to improve (mainly Old) Reddit experience
+Scripts designed to improve (Old) Reddit experience
 
 ## [Fix Old Reddit Image Links](https://github.com/fxolan/userscripts/raw/main/reddit/fix-old-reddit-images.user.js)
 For some reason, Reddit decided to make i.redd.it and preview.redd.it images open a viewer in New Reddit when you click on them, despite them still being a direct image.
@@ -60,6 +60,6 @@ This uses a bunch of resources uselessly. Also, if you use a userscript to redir
 
 Solution: Since the image is still a direct image, we can just open the image link in any image viewer. So I just made a very simple website to display image from a link, put it on GitHub, and redirect redd.it images to it with this userscript.
 
-## [Hide subreddit moderators box](https://github.com/fxolan/userscripts/raw/main/reddit/old-reddit-no-mods.user.js)https://github.com/fxolan/userscripts/raw/main/reddit/old-reddit-no-mods.user.js
+## [Hide subreddit moderators box](https://github.com/fxolan/userscripts/raw/main/reddit/old-reddit-no-mods.user.js)
 
-## [Hide online users](https://github.com/fxolan/userscripts/raw/main/reddit/old-reddit-no-online-users.user.js)https://github.com/fxolan/userscripts/raw/main/reddit/old-reddit-no-online-users.user.js
+## [Hide online users](https://github.com/fxolan/userscripts/raw/main/reddit/old-reddit-no-online-users.user.js)
