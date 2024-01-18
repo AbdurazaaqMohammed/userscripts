@@ -27,7 +27,7 @@ Add a button to F-Droid app pages to copy information of apps from F-Droid and f
 ## [GitHub - open closed issues if there are no open issues](https://github.com/fxolan/userscripts/raw/main/github-issues-fix.user.js)
 Automatically opens closed issues if there are no open issues on GitHub issue pages.
 
-## [Control GoComics with arrow key](https://github.com/fxolan/userscripts/raw/main/gocomics-key-controls.user.js)
+## [Control GoComics with arrow keys](https://github.com/fxolan/userscripts/raw/main/gocomics-key-controls.user.js)
 Use arrow keys to go back and forth on comics on GoComics. You can add more keys or change them as you want. The documentation for key values can be found here: https://developer.mozilla.org/en-US/docs/web/api/ui_events/keyboard_event_key_values
 
 # Playstore, F-Droid and Ezgif scripts
