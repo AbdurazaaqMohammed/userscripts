@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         Auto Remote Upload + ToS
 // @namespace    https://github.com/AbdurazaaqMohammed
-// @version      1.1
+// @version      1.1.1
 // @description  Automatically selects remote URL upload and ticks the TOS box on file hosting sites often used on Mobilism
+// @author       Abdurazaaq Mohammed
 // @author       Abdurazaaq Mohammed
 // @match        https://userupload.net/?op=upload_form
 // @match        https://userupload.in/?op=upload_form
@@ -12,7 +13,6 @@
 // @match        https://dropgalaxy.co/
 // @match        https://dropgalaxy.com/
 // @match        https://dgdrive.xyz/
-// @match        https://apkadmin.com/
 // @grant        none
 // @homepage     https://github.com/AbdurazaaqMohammed/userscripts
 // @license      The Unlicense
@@ -22,9 +22,12 @@
 (function() {
   'use strict';
 
+  var uploadButton = document.querySelector('.uploadbtn.btn-primary.btn');
+
+
   const url = window.location.href;
   const inputField = document.querySelector("textarea");
-  setTimeout(function() { // auto focus the input field
+  setTimeout(function() { //Click on the box
       if(inputField && document.activeElement !== inputField){
         inputField.focus();
       }
@@ -39,6 +42,7 @@
   }
   else {
     const form = document.querySelector("#select_url");
+    uploadButton = document.querySelector('#uploadurl > div.pull-right > button');
     const intervalId = setInterval(function() { //uploadrar refuses to work if you don't do this
       if(form) {
         form.click();
@@ -46,4 +50,11 @@
       }
     }, 200);
   }
+
+  document.addEventListener('keydown', function(e) {
+    const key = e.key;
+    if (key == "Enter") uploadButton.click();
+    // You can add more keys or change them as you want. The documentation for key values can be found here: https://developer.mozilla.org/en-US/docs/web/api/ui_events/keyboard_event_key_values
+  });
+
 })();
