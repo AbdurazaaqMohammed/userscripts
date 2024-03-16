@@ -2,7 +2,9 @@
 Userscripts developed by me
 
 # Installation
-Click on any script then click "Raw" (the links below are already raw links) and your userscript manager should open. If you are using Cromite you may have to save the userscript and load it in Settings.
+These scripts were tested for use with [Violentmonkey](https://violentmonkey.github.io/) but should hopefully work with any userscript manager.
+
+Click on any link below, or click the script in the files then click "Raw" and your userscript manager should open. If you are using Cromite you may have to save the userscript and load it in Settings.
 
 ##  [A2ZAPK Quick Download](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/A2ZAPK-quick-download.user.js)
 Redirect to download page when you click an app on A2ZAPK and starts the download, even if the anti-adblock message is showing.
@@ -14,6 +16,9 @@ Automatically play FreeRice multiplication table
 
 ##  [YouTube Download via SaveFrom](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/yt-download-via-savefrom.user.js)
 Adds buttons in userscript manager on YouTube videos to go to SaveFrom and get video or audio, and automatically selects and downloads the highest quality video/audio on SaveFrom links
+
+## [Mobilism file host simplifier](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/filehosts-remote-tos-click.user.js)
+Automatically selects remote URL upload, ticks the TOS box, focuses the input area and allows uploading by pressing Enter on file hosting sites often used on Mobilism
 
 ##  [Remove file name from Apkadmin URLs](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/remove-apkadmin-file-name.user.js)
  Removes unnecessary file name from Apkadmin URLs. This should be applicable to other websites too.
@@ -66,3 +71,7 @@ Solution: Since the image is still a direct image, we can just open the image li
 ## [Hide subreddit moderators box](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/reddit/old-reddit-no-mods.user.js)
 
 ## [Hide online users](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/reddit/old-reddit-no-online-users.user.js)
+
+### Notes
+Just a place to note things discovered when writing these scripts.
+* Cromite recognizes scripts as invalid if there is a * in the domain.
