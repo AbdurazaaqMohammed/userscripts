@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Download video/audio from YouTube quickly via SaveFrom
-// @namespace   https://github.com/fxolan/userscripts
+// @namespace   https://github.com/AbdurazaaqMohammed/userscripts
 // @version     1.0.1
 // @description Adds buttons in userscript manager on YouTube videos to go to SaveFrom and get video or audio, and automatically selects and downloads the highest quality video/audio on SaveFrom links
 // @match       https://en.savefrom.net/*
@@ -10,9 +10,9 @@
 // @grant       GM_registerMenuCommand
 // @grant       GM_setValue
 // @grant       GM_getValue
-// @homepage    https://github.com/fxolan/userscripts
+// @homepage    https://github.com/AbdurazaaqMohammed/userscripts
 // @license     The Unlicense
-// @supportURL  https://github.com/fxolan/userscripts/issues
+// @supportURL  https://github.com/AbdurazaaqMohammed/userscripts/issues
 // @downloadURL https://update.greasyfork.org/scripts/481649/Download%20videoaudio%20from%20YouTube%20quickly%20via%20SaveFrom.user.js
 // @updateURL https://update.greasyfork.org/scripts/481649/Download%20videoaudio%20from%20YouTube%20quickly%20via%20SaveFrom.meta.js
 // ==/UserScript==

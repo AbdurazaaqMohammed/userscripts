@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Open direct image after converting on Ezgif
-// @namespace    https://github.com/fxolan
+// @namespace    https://github.com/AbdurazaaqMohammed
 // @version      1.0
 // @description  Open direct link to the image after converting on Ezgif
 // @author       Abdurazaaq Mohammed
 // @match        https://ezgif.com/*/*.*
 // @grant        none
-// @homepage     https://github.com/fxolan/userscripts
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
 // @license      The Unlicense
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // ==/UserScript==
 
 (function() {

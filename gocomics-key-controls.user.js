@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         GoComics control with arrow keys
-// @namespace    https://github.com/fxolan/userscripts
+// @namespace    https://github.com/AbdurazaaqMohammed/userscripts
 // @version      1.0
 // @description  Use arrow keys to go back and forth on comics on GoComics
 // @author       Abdurazaaq Mohammed
 // @license      The Unlicense
-// @homepage     https://github.com/fxolan/userscripts
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // @match        https://www.gocomics.com/*
 // @grant        none
 // ==/UserScript==

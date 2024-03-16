@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Remove Submit buttons from Old Reddit (with a toggle that activates it when not logged in or always)
-// @namespace    https://github.com/fxolan
+// @namespace    https://github.com/AbdurazaaqMohammed
 // @version      1.0
 // @match        *://*old.reddit.com/*
 // @match        *://*np.reddit.com/*
@@ -9,9 +9,9 @@
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @author       Abdurazaaq Mohammed
-// @homepage     https://github.com/fxolan/userscripts
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
 // @license      The Unlicense
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // ==/UserScript==
 
 var onlyOnLogin = GM_getValue("onlyOnLogin", true);

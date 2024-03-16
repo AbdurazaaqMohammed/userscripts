@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Remove highlight from Mobilism
-// @namespace   https://github.com/fxolan
+// @namespace   https://github.com/AbdurazaaqMohammed
 // @author       Abdurazaaq Mohammed
 // @version     1.0.2
 // @description Removes unnecessary highlight from Mobilism pages triggered when clicking on a search result to prevent potential issues with external links.
@@ -10,8 +10,8 @@
 // @match       https://forum.mobilism.me/search.php?*
 // @grant       none
 // @run-at      document-start
-// @homepage    https://github.com/fxolan/userscripts
-// @supportURL  https://github.com/fxolan/userscripts/issues
+// @homepage    https://github.com/AbdurazaaqMohammed/userscripts
+// @supportURL  https://github.com/AbdurazaaqMohammed/userscripts/issues
 // @license      The Unlicense
 // ==/UserScript==
 

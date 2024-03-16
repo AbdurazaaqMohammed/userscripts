@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Open F-Droid Images in New Tab
-// @namespace    https://github.com/fxolan/userscripts
+// @namespace    https://github.com/AbdurazaaqMohammed/userscripts
 // @author       Abdurazaaq Mohammed
 // @version      1.9
 // @description  Open F-Droid images in a new tab when clicked
@@ -9,8 +9,8 @@
 // @run-at       document-start
 // @grant        none
 // @license      The Unlicense
-// @homepage     https://github.com/fxolan/userscripts
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // ==/UserScript==
 
 (function() {

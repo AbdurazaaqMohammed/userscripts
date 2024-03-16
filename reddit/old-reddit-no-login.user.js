@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Stop Old Reddit asking to login
-// @namespace    https://github.com/fxolan
+// @namespace    https://github.com/AbdurazaaqMohammed
 // @version      1.1.1
 // @description  Remove the login fields from Old Reddit
 // @match        https://old.reddit.com/*
 // @match        https://np.reddit.com/*
 // @grant        none
-// @homepage     https://github.com/fxolan/userscripts
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // @license      The Unlicense
 // ==/UserScript==
 

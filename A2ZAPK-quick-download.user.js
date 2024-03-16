@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        A2ZAPK Quick Download
-// @namespace   https://github.com/fxolan/userscripts
+// @namespace   https://github.com/AbdurazaaqMohammed/userscripts
 // @version     1.0
 // @description Redirect to download page when you click an app on A2ZAPK
 // @match       https://a2zapk.com/1*
@@ -9,9 +9,9 @@
 // @match       https://a2zapk.io/dload/*
 // @grant       none
 // @run-at      document-start
-// @homepage    https://github.com/fxolan/userscripts
+// @homepage    https://github.com/AbdurazaaqMohammed/userscripts
 // @license     The Unlicense
-// @supportURL  https://github.com/fxolan/userscripts/issues
+// @supportURL  https://github.com/AbdurazaaqMohammed/userscripts/issues
 // ==/UserScript==
 
 (function() {

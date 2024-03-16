@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name        GitHub - open closed issues if there are no open issues
-// @namespace   https://github.com/fxolan
+// @namespace   https://github.com/AbdurazaaqMohammed
 // @author       Abdurazaaq Mohammed
 // @version     1.0
 // @description Automatically opens closed issues if there are no open issues on GitHub.
 // @match       https://github.com/*/issues
 // @grant       none
 // @run-at      document-start
-// @homepage    https://github.com/fxolan/userscripts
-// @supportURL  https://github.com/fxolan/userscripts/issues
+// @homepage    https://github.com/AbdurazaaqMohammed/userscripts
+// @supportURL  https://github.com/AbdurazaaqMohammed/userscripts/issues
 // @license     The Unlicense
 // ==/UserScript==
 

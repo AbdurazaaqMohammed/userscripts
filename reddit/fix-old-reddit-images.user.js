@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name        Fix image links on Old Reddit
-// @namespace   https://github.com/fxolan
+// @namespace   https://github.com/AbdurazaaqMohammed
 // @version     1.0
 // @description Fix opening redd.it image links on Old Reddit
 // @author      Abdurazaaq Mohammed
-// @homepage    https://github.com/fxolan/userscripts
+// @homepage    https://github.com/AbdurazaaqMohammed/userscripts
 // @license     The Unlicense
-// @supportURL  https://github.com/fxolan/userscripts/issues
+// @supportURL  https://github.com/AbdurazaaqMohammed/userscripts/issues
 // @match       https://old.reddit.com/*
-// @match       https://fxolan.github.io/website/imgviewer
+// @match       https://AbdurazaaqMohammed.github.io/website/imgviewer
 // @grant       GM_getValue
 // @grant       GM_setValue
 // ==/UserScript==
@@ -20,8 +20,8 @@
   function openImageViewer(imgLink) {
     GM_setValue('img', imgLink);
     // Uncomment below and comment/delete the other line if you want to redirect to the image directly instead of opening in a new tab.
-    //window.location.href = 'https://fxolan.github.io/website/imgviewer';
-    window.open('https://fxolan.github.io/website/imgviewer');
+    //window.location.href = 'https://AbdurazaaqMohammed.github.io/website/imgviewer';
+    window.open('https://AbdurazaaqMohammed.github.io/website/imgviewer');
   }
 
   function fixImageLinks(mutationsList, observer) {

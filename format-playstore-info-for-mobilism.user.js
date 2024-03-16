@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Copy information of apps from Play Store to post on Mobilism
-// @namespace    https://github.com/fxolan/userscripts
+// @namespace    https://github.com/AbdurazaaqMohammed/userscripts
 // @version      1.0.4.2
 // @description  Copy information of apps from Play Store and format it to post on Mobilism
 // @author       Abdurazaaq Mohammed
 // @match        https://play.google.com/store/apps/*
 // @grant        GM_setClipboard
 // @license      The Unlicense
-// @homepage     https://github.com/fxolan/userscripts
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // ==/UserScript==
 
 (function() {

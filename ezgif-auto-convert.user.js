@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Auto Convert after upload on ezgif
-// @namespace    https://github.com/fxolan
+// @namespace    https://github.com/AbdurazaaqMohammed
 // @version      1.0.1
 // @author       Abdurazaaq Mohammed
 // @description  Automatically clicks the convert button after you upload an image to ezgif to convert
 // @match        https://ezgif.com/*/*.*
 // @grant        none
-// @homepage     https://github.com/fxolan/userscripts
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
 // @license      The Unlicense
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // ==/UserScript==
 
 (function() {

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Upload image to Mobilism Images
-// @namespace    https://github.com/fxolan
+// @namespace    https://github.com/AbdurazaaqMohammed
 // @version      1.2
 // @description  Add button to direct image pages to upload Mobilism, resizing if the image is too large.
 // @author       Abdurazaaq Mohammed
@@ -21,8 +21,8 @@
 // @grant        GM_setClipboard
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @homepage     https://github.com/fxolan/userscripts
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // @license      The Unlicense
 // ==/UserScript==
 
