@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         No Online Users
-// @namespace    https://github.com/fxolan
+// @namespace    https://github.com/AbdurazaaqMohammed
 // @author       Abdurazaaq Mohammed
 // @version      1.0.1
 // @description  Remove online users info from Old Reddit
@@ -8,8 +8,8 @@
 // @match        https://np.reddit.com/r/*
 // @grant        none
 // @license      The Unlicense
-// @homepage     https://github.com/fxolan/userscripts
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // ==/UserScript==
  
 (function() {

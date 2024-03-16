@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Copy information of apps from F-Droid to post on Mobilism
-// @namespace    https://github.com/fxolan/userscripts
+// @namespace    https://github.com/AbdurazaaqMohammed/userscripts
 // @version      1.0.3.1
 // @description  Add a button to F-Droid app pages to copy information of apps from F-Droid and format it to post on Mobilism
 // @author       Abdurazaaq Mohammed
 // @match        https://f-droid.org/*/packages*
 // @grant        GM_setClipboard
 // @license      The Unlicense
-// @homepage     https://github.com/fxolan/userscripts
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // ==/UserScript==
 
 (function() {

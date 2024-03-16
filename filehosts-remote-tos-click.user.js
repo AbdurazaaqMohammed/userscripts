@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Auto Remote Upload + ToS
-// @namespace    https://github.com/fxolan
+// @namespace    https://github.com/AbdurazaaqMohammed
 // @version      1.0
 // @description  Automatically selects remote URL upload and ticks the TOS box on file hosting sites often used on Mobilism
 // @author       Abdurazaaq Mohammed
@@ -10,9 +10,9 @@
 // @match        *://dropgalaxy.*/
 // @match        *://dgdrive.xyz/
 // @grant        none
-// @homepage     https://github.com/fxolan/userscripts
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
 // @license      The Unlicense
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // ==/UserScript==
 
 (function() {

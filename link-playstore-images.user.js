@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Link Images on Playstore
-// @namespace    https://github.com/fxolan/userscripts
+// @namespace    https://github.com/AbdurazaaqMohammed/userscripts
 // @version      1.0.1
 // @description  Open full page link of image when clicked on Google Play app pages
 // @author       Abdurazaaq Mohammed
 // @match        *://play.google.com/store/apps/*
 // @grant        none
 // @license      The Unlicense
-// @homepage     https://github.com/fxolan/userscripts
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // ==/UserScript==
 
 (function() {

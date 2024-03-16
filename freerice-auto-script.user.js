@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         FreeRice Multiplication Script/Bot
-// @namespace    https://github.com/fxolan
+// @namespace    https://github.com/AbdurazaaqMohammed
 // @version      1.0.1
 // @description  Automatically play FreeRice multiplication table
 // @author       Abdurazaaq Mohammed
 // @match        https://play.freerice.com/categories/multiplication-table
 // @grant        none
-// @homepage     https://github.com/fxolan/userscripts
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
 // @license      The Unlicense
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // ==/UserScript==
 
 function eval() {

@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Ezgif Quick Link Copy
-// @namespace    https://github.com/fxolan
+// @namespace    https://github.com/AbdurazaaqMohammed
 // @version      1.0
 // @description  Adds a button to quickly copy the converted image link to ezgif
 // @author       Abdurazaaq Mohammed
 // @match        *://ezgif.com/*/*.*
 // @grant        GM_setClipboard
-// @homepage     https://github.com/fxolan/userscripts
+// @homepage     https://github.com/AbdurazaaqMohammed/userscripts
 // @license      The Unlicense
-// @supportURL   https://github.com/fxolan/userscripts/issues
+// @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
 // ==/UserScript==
 
 (function() {
