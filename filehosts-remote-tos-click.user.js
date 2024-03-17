@@ -37,9 +37,12 @@
   if (url.includes('dropgalaxy') || url.includes('dgdrive')) {
     document.querySelector("#tab-remote_upload > span").click();
   }
-  else if (url.includes('userupload') || url.includes('devuploads')) {
+  else if (url.includes('userupload')) {
     document.querySelector("#select_url").click();
-    document.querySelector(".custom-control-label").disabled = false;
+    document.querySelector(".custom-control-label").click();
+  }
+  else if(url.includes('devuploads')) {
+    document.querySelector("#select_url").click();
   }
   else {
     const form = document.querySelector("#select_url");
