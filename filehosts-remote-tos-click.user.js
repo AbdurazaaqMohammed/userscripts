@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Remote Upload + ToS
 // @namespace    https://github.com/AbdurazaaqMohammed
-// @version      1.1.1.1
+// @version      1.1.2
 // @description  Automatically selects remote URL upload, ticks the TOS box, focuses the input area and allows uploading by pressing Enter on file hosting sites often used on Mobilism
 // @author       Abdurazaaq Mohammed
 // @author       Abdurazaaq Mohammed
@@ -37,9 +37,9 @@
   if (url.includes('dropgalaxy') || url.includes('dgdrive')) {
     document.querySelector("#tab-remote_upload > span").click();
   }
-  else if (url.includes('userupload')) {
+  else if (url.includes('userupload') || url.includes('devuploads')) {
     document.querySelector("#select_url").click();
-    document.querySelector(".custom-control-label").click(); // DevUploads and Uploadrar already enable TOS by default. I can't remember about DG
+    document.querySelector(".custom-control-label").disabled = false;
   }
   else {
     const form = document.querySelector("#select_url");
@@ -54,7 +54,7 @@
 
   document.addEventListener('keydown', function(e) {
     const key = e.key;
-    if (key == "Enter") uploadButton.click();
+    if (key == "Shift") uploadButton.click();
     // You can add more keys or change them as you want. The documentation for key values can be found here: https://developer.mozilla.org/en-US/docs/web/api/ui_events/keyboard_event_key_values
   });
 
