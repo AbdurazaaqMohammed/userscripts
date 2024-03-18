@@ -35,6 +35,9 @@ Automatically opens closed issues if there are no open issues on GitHub issue pa
 ## [Control GoComics with arrow keys](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/gocomics-key-controls.user.js)
 Use arrow keys to go back and forth on comics on GoComics. You can add more keys or change them as you want. The documentation for key values can be found here: https://developer.mozilla.org/en-US/docs/web/api/ui_events/keyboard_event_key_values
 
+## [Quran.com Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/quran-dot-com-black-background.user.js)
+Change background color to AMOLED black on Quran.com
+
 # Playstore, F-Droid and Ezgif scripts
 The following scripts are meant to be used together to convert images from the Play Store to PNGs and optionally upload them to Mobilism Images with one click.
 
