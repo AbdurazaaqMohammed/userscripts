@@ -38,6 +38,9 @@ Use arrow keys to go back and forth on comics on GoComics. You can add more keys
 ## [Quran.com Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/quran-dot-com-black-background.user.js)
 Change background color to AMOLED black on Quran.com
 
+## [File.Garden Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/filegarden-black-background.user.js)
+Change background color to AMOLED black on File.Garden
+
 # Playstore, F-Droid and Ezgif scripts
 The following scripts are meant to be used together to convert images from the Play Store to PNGs and optionally upload them to Mobilism Images with one click.
 
