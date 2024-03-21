@@ -83,3 +83,4 @@ Just a place to note things discovered when writing these scripts.
 * [Cromite](https://github.com/uazo/cromite) recognizes scripts as invalid if there is a * in the domain.
 * Cromite does not support [GM_registerMenuCommand](https://www.tampermonkey.net/documentation.php?locale=en#api:GM_registerMenuCommand).
 * [ChromeXt](https://github.com/JingMatrix/ChromeXt) supports GM_registerMenuCommand but only through [Eruda](https://github.com/liriliri/eruda) which didn't work on Cromite the last time I checked.
+  * For compatibility with mobile don't use GM_registerMenuCommand for anything
