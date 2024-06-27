@@ -21,7 +21,7 @@ Adds buttons in userscript manager on YouTube videos to go to SaveFrom and get v
 Automatically selects remote URL upload, ticks the TOS box, focuses the input area and allows uploading by pressing Enter on file hosting sites often used on Mobilism
 
 ##  [Remove file name from Apkadmin URLs](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/remove-apkadmin-file-name.user.js)
- Removes unnecessary file name from Apkadmin URLs. This should be applicable to other websites too.
+ Removes unnecessary file name from Apkadmin URLs. This should be applicable to other websites that use the same format (https:// website name/file code/ file name).
 
 ## [Format Play Store app info for Mobilism](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/format-playstore-info-for-mobilism.user.js)
 Copy information of apps from Play Store and format it to post on Mobilism
@@ -35,11 +35,26 @@ Automatically opens closed issues if there are no open issues on GitHub issue pa
 ## [Control GoComics with arrow keys](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/gocomics-key-controls.user.js)
 Use arrow keys to go back and forth on comics on GoComics. You can add more keys or change them as you want. The documentation for key values can be found here: https://developer.mozilla.org/en-US/docs/web/api/ui_events/keyboard_event_key_values
 
-## [Quran.com Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/quran-dot-com-black-background.user.js)
+# Themes
+Themes to change background color to AMOLED Black on various websites
+
+## [YouTube Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/theme/youtube-black-background.user.js)
+Change background color to AMOLED black on YouTube
+
+## [GitHub Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/theme/github-black-background.user.js)
+Change background color to AMOLED black on GitHub
+
+## [ChatGPT Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/theme/chatgpt-black-background.user.js)
+Change background color to AMOLED black on ChatGPT
+
+## [Quran.com Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/theme/quran-dot-com-black-background.user.js)
 Change background color to AMOLED black on Quran.com
 
-## [File.Garden Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/filegarden-black-background.user.js)
+## [File.Garden Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/theme/filegarden-black-background.user.js)
 Change background color to AMOLED black on File.Garden
+
+## [Old Reddit Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/theme/old-reddit-black-background.user.js)
+Change background color to AMOLED black on Old Reddit
 
 # Playstore, F-Droid and Ezgif scripts
 The following scripts are meant to be used together to convert images from the Play Store to PNGs and optionally upload them to Mobilism Images with one click.
@@ -77,6 +92,9 @@ Solution: Since the image is still a direct image, we can just open the image li
 ## [Hide subreddit moderators box](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/reddit/old-reddit-no-mods.user.js)
 
 ## [Hide online users](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/reddit/old-reddit-no-online-users.user.js)
+
+## [Old Reddit Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/theme/old-reddit-black-background.user.js)
+Change background color to AMOLED black on Old Reddit
 
 ### Notes
 Just a place to note things discovered when writing these scripts.
