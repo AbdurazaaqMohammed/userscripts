@@ -19,8 +19,11 @@ It does not block ads but should work with any adblocker including via hosts.
 ##  [FreeRice Multiplication Script](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/freerice-auto-script.user.js)
 Automatically play FreeRice multiplication table
 
-##  [YouTube Download via SaveFrom](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/yt-download-via-savefrom.user.js)
-Adds buttons in userscript manager on YouTube videos to go to SaveFrom and get video or audio, and automatically selects and downloads the highest quality video/audio on SaveFrom links
+##  [Download video/audio from YouTube quickly via userscript menu](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/yt-download-via-userscript-menu.user.js)
+Adds buttons in userscript manager on YouTube videos to download video (from ytbsave.com) or audio (from tube-nightly.kuylar.dev through poketube)
+It will automatically select the highest quality video available
+Audio is direct download and the website used for video has no ads.
+<img src="/images/shot_240628_020437.png" />
 
 ## [Mobilism file host simplifier](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/filehosts-remote-tos-click.user.js)
 Automatically selects remote URL upload, ticks the TOS box, focuses the input area and allows uploading by pressing Enter on file hosting sites often used on Mobilism
