@@ -20,9 +20,12 @@ It does not block ads but should work with any adblocker including via hosts.
 Automatically play FreeRice multiplication table
 
 ##  [Download video/audio from YouTube quickly via userscript menu](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/yt-download-via-userscript-menu.user.js)
-Adds buttons in userscript manager on YouTube videos to download video (from ytbsave.com) or audio (from tube-nightly.kuylar.dev through poketube)
-It will automatically select the highest quality video available
+Adds buttons in userscript manager on YouTube videos to download video (from ytbsave.com) or audio (from tube-nightly.kuylar.dev through poketube).
+
+It will automatically select the highest quality video available.
+
 Audio is direct download and the website used for video has no ads.
+
 <img src="/images/shot_240628_020437.png" />
 
 ## [Mobilism file host simplifier](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/filehosts-remote-tos-click.user.js)
