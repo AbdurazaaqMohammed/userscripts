@@ -6,6 +6,11 @@ These scripts were tested for use with [Violentmonkey](https://violentmonkey.git
 
 Click on any link below, or click the script in the files then click "Raw" and your userscript manager should open. If you are using Cromite you may have to save the userscript and load it in Settings.
 
+## [Wiki Link Preview](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/wiki-link-preview.user.js)
+Show a preview of a linked wiki page when hovering over a link like Wikipedia does. By default the script runs on all pages and only attempts to show preview for links that contain "wiki" or "miraheze". You can modify this behavior by changing @match to match specific websites/domains you want and add other ways to identify wiki links or attempt to show preview for all links.
+
+<img src="/images/Screenshot%202024-06-27%20202537.png" />
+
 ##  [A2ZAPK Quick Download](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/A2ZAPK-quick-download.user.js)
 Redirect to download page when you click an app on A2ZAPK and starts the download, even if the anti-adblock message is showing.
 Skips some delays along the way, but the download still has to load.
