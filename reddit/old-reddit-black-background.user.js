@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Old Reddit Black Background
 // @namespace      https://github.com/AbdurazaaqMohammed
-// @version        1.1.1
+// @version        1.1.2
 // @author         Abdurazaaq Mohammed
 // @description    Change background color to AMOLED black on Old Reddit
 // @match          https://old.reddit.com/*
@@ -15,9 +15,5 @@
 (function() {
 	'use strict';
 
-	function getRedditPostIdCss() {
-		const match = window.location.href.match(/\/comments\/(\w+)\//);
-		return match ? ':not(#video-' + match[1] +' div)' : '';
-	}
-	document.head.appendChild(document.createElement('style')).innerHTML = 'div:not(button div)' + getRedditPostIdCss() + ' { background-color: black !important; }';
+	document.head.appendChild(document.createElement('style')).innerHTML = 'div:not(button div):not(.reddit-video-player-root.portrait div) { background-color: black !important; }';
 })();
