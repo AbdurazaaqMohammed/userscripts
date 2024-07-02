@@ -64,7 +64,7 @@ Change background color to AMOLED black on Quran.com
 ## [File.Garden Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/theme/filegarden-black-background.user.js)
 Change background color to AMOLED black on File.Garden
 
-## [Old Reddit Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/reddit/old-reddit-black-backgroud.user.js)
+## [Old Reddit Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/reddit/old-reddit-black-background.user.js)
 Change background color to AMOLED black on Old Reddit
 
 # Playstore, F-Droid and Ezgif scripts
@@ -104,7 +104,7 @@ Solution: Since the image is still a direct image, we can just open the image li
 
 ## [Hide online users](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/reddit/old-reddit-no-online-users.user.js)
 
-## [Old Reddit Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/reddit/old-reddit-black-backgroud.user.js)
+## [Old Reddit Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/reddit/old-reddit-black-background.user.js)
 Change background color to AMOLED black on Old Reddit
 
 ### Notes
