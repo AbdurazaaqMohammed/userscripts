@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Fix image links on Old Reddit
 // @namespace   https://github.com/abdurazaaqmohammed
-// @version     1.0.3
+// @version     1.0.3.1
 // @description Fix opening redd.it image links on Old Reddit
 // @author      Abdurazaaq Mohammed
 // @homepage    https://github.com/abdurazaaqmohammed/userscripts
@@ -15,7 +15,6 @@
 
 (function () {
   'use strict';
-  const url = window.location.href;
 
   function openImageViewer(imgLink) {
     // Uncomment below and comment/delete the other line if you want to redirect to the image directly instead of opening in a new tab.
