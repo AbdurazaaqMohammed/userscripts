@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           YouTube Black Background
 // @namespace      https://github.com/AbdurazaaqMohammed
-// @version        1.1
+// @version        1.2
 // @author         Abdurazaaq Mohammed
 // @description    Change background color to AMOLED black on YouTube
 // @match          https://www.youtube.com/*
@@ -14,6 +14,6 @@
 (function() {
 	'use strict';
 
-	document.head.appendChild(document.createElement('style')).innerHTML = 'div:not(button div):not(#container div) { background-color: black !important; }';
+	document.head.appendChild(document.createElement('style')).innerHTML = 'div:not(button div):not(#container div):not(#dismissible div) { background-color: black !important; }';
 
 })();
