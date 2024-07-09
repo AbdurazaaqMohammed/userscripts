@@ -16,6 +16,9 @@ Redirect to download page when you click an app on A2ZAPK and starts the downloa
 Skips some delays along the way, but the download still has to load.
 It does not block ads but should work with any adblocker including via hosts.
 
+## [Block/Hide Words](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/block-words.user.js)
+Block/hide specified words from appearing on webpages
+
 ##  [FreeRice Multiplication Script](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/freerice-auto-script.user.js)
 Automatically play FreeRice multiplication table
 
