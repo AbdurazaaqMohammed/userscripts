@@ -55,6 +55,8 @@ Themes to change background color to AMOLED Black on various websites
 ## [YouTube Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/theme/youtube-black-background.user.js)
 Change background color to AMOLED black on YouTube
 
+To disable the gradient effect on videos click the settings icon in the video (the one with the video quality settings) and disable "Ambient Mode"
+
 ## [GitHub Black Background](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/theme/github-black-background.user.js)
 Change background color to AMOLED black on GitHub
 
