@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Fix image links on Old Reddit
 // @namespace   https://github.com/abdurazaaqmohammed
-// @version     1.1
+// @version     1.1.1
 // @description Fix opening redd.it image links on Old Reddit
 // @author      Abdurazaaq Mohammed
 // @homepage    https://github.com/abdurazaaqmohammed/userscripts
@@ -36,6 +36,6 @@
 
   const url = window.location.href;
   const brokenImg = 'https://old.reddit.com/r/funny/comments/media/nice_hat/?url=';
-  url.startsWith(brokenImg) ? window.location.href = 'https://abdurazaaqmohammed.github.io/website/imgviewer?viewimg=' + url.split(brokenImg)[1] : new MutationObserver(fixImageLinks).observe(document.body, { subtree: true, childList: true });
+  url.startsWith(brokenImg) ? window.location.href = 'https://abdurazaaqmohammed.github.io/website/imgviewer?viewimg=' + url.split(brokenImg)[1] : new MutationObserver(fixImageLinks).observe(document, { subtree: true, childList: true });
 
 })();
