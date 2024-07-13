@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Fix image links on Old Reddit
 // @namespace   https://github.com/abdurazaaqmohammed
-// @version     1.0.3.1
+// @version     1.1
 // @description Fix opening redd.it image links on Old Reddit
 // @author      Abdurazaaq Mohammed
 // @homepage    https://github.com/abdurazaaqmohammed/userscripts
@@ -10,6 +10,7 @@
 // @match       https://*.reddit.com/*
 // @exclude     https://www.reddit.com/*
 // @exclude     https://new.reddit.com/*
+// @run-at      document-start
 // @grant       none
 // ==/UserScript==
 
@@ -23,6 +24,8 @@
   }
 
   function fixImageLinks(mutationsList, observer) {
+    document.querySelectorAll(".media-preview").forEach((gallery) => gallery.addEventListener("click", function() { openImageViewer(Array.from(gallery.querySelectorAll('img')).map(id => `${id.src.split('?')[0]}`).join(',')) }) );
+
     document.querySelectorAll('a[href^="https://preview.redd.it"], a[href^="https://i.redd.it"]').forEach(link => {
       const imgLink = link.href;
       // Overwriting the href would break copying the image link, so remove the old href and set onClick to open the viewer instead.
@@ -31,6 +34,8 @@
     });
   }
 
-  new MutationObserver(fixImageLinks).observe(document.body, { subtree: true, childList: true });
+  const url = window.location.href;
+  const brokenImg = 'https://old.reddit.com/r/funny/comments/media/nice_hat/?url=';
+  url.startsWith(brokenImg) ? window.location.href = 'https://abdurazaaqmohammed.github.io/website/imgviewer?viewimg=' + url.split(brokenImg)[1] : new MutationObserver(fixImageLinks).observe(document.body, { subtree: true, childList: true });
 
 })();
