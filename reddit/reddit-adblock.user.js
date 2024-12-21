@@ -12,5 +12,5 @@
 // @run-at       document-start
 // ==/UserScript==
 (function() {
-  (document.head || document.documentElement).appendChild(document.createElement('style')).textContent = 'shreddit-ad-post, shreddit-dynamic-ad-link, shreddit-comments-page-ad, div[class*="promotedlink"], .flair { display: none !important; }';
+  (document.head || document.documentElement).appendChild(document.createElement('style')).textContent = 'shreddit-ad-post, shreddit-dynamic-ad-link, shreddit-comments-page-ad, div[class*="promotedlink"] { display: none !important; }';
 })();
