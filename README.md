@@ -49,6 +49,12 @@ Automatically opens closed issues if there are no open issues on GitHub issue pa
 ## [Control GoComics with arrow keys](https://github.com/AbdurazaaqMohammed/userscripts/raw/main/gocomics-key-controls.user.js)
 Use arrow keys to go back and forth on comics on GoComics. You can add more keys or change them as you want. The documentation for key values can be found here: https://developer.mozilla.org/en-US/docs/web/api/ui_events/keyboard_event_key_values
 
+## [GoComics AdBlock](https://github.com/AbdurazaaqMohammed/userscripts/raw/refs/heads/main/GoComics-AdBlock.user.js)
+Remove ads on GoComics
+
+## [wings.io AdBlock](https://github.com/AbdurazaaqMohammed/userscripts/raw/refs/heads/main/wings.io%20AdBlock.user.js)
+Remove ads on wings.io
+
 # Themes
 Themes to change background color to AMOLED Black on various websites
 
