@@ -9,7 +9,7 @@
 // @supportURL     https://github.com/AbdurazaaqMohammed/userscripts/issues
 // @license        The Unlicense
 // @run-at         document-start
-// @grant          GM_addStyle
+// @grant          none
 // ==/UserScript==
 (function() {
 	'use strict';
