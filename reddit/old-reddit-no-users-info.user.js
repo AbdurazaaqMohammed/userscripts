@@ -1,19 +1,19 @@
 // ==UserScript==
-// @name         No Online Users
+// @name         Old reddit no users info
 // @namespace    https://github.com/AbdurazaaqMohammed
 // @author       Abdurazaaq Mohammed
-// @version      1.0.1
-// @description  Remove online users info from Old Reddit
+// @version      1.1
+// @description  Remove subscribers and online users info from subreddits on Old Reddit
 // @match        https://old.reddit.com/r/*
 // @match        https://np.reddit.com/r/*
+// @run-at       document-start
 // @grant        none
-// @license      The Unlicense
 // @homepage     https://github.com/AbdurazaaqMohammed/userscripts
 // @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
+// @license      The Unlicense
 // ==/UserScript==
- 
+
 (function() {
-    'use strict';
-    document.querySelector('.subscribers').remove();
-    document.querySelector('.users-online').remove();
+  'use strict';
+  (document.head || document.documentElement).appendChild(document.createElement('style')).textContent = '.subscribers, .users-online { display: none !important; }';
 })();
