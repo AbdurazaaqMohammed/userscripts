@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Stop Old Reddit asking to login
 // @namespace    https://github.com/AbdurazaaqMohammed
-// @version      1.1.1
+// @version      1.2
 // @description  Remove the login fields from Old Reddit
 // @match        https://old.reddit.com/*
 // @match        https://np.reddit.com/*
+// @run-at       document-start
 // @grant        none
 // @homepage     https://github.com/AbdurazaaqMohammed/userscripts
 // @supportURL   https://github.com/AbdurazaaqMohammed/userscripts/issues
@@ -13,14 +14,5 @@
 
 (function() {
   'use strict';
-
-  function hideElement(s) {
-    document.querySelector(s).remove();
-  }
-
-  hideElement('#login_login-main');
-  hideElement('.user');
-  hideElement('#header-bottom-right > .separator');
-  hideElement('.title.selected');
-  hideElement('.toggle.subscribe-button.fancy-toggle-button');
+  (document.head || document.documentElement).appendChild(document.createElement('style')).textContent = '.listingsignupbar, #login_login-main, .user, #header-bottom-right > .separator, .title.selected, .toggle.subscribe-button.fancy-toggle-button { display: none !important; }';
 })();
