@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           GitHub Black Background
 // @namespace      https://github.com/AbdurazaaqMohammed
-// @version        1.0
+// @version        1.0.1
 // @author         Abdurazaaq Mohammed
 // @description    Change background color to AMOLED black on GitHub
 // @match          https://github.com/*
@@ -9,13 +9,9 @@
 // @license        The Unlicense
 // @supportURL     https://github.com/AbdurazaaqMohammed/userscripts/issues
 // @run-at         document-start
-// @grant          GM_addStyle
+// @grant          none
 // ==/UserScript==
 (function() {
 	'use strict';
-	try {
-		GM_addStyle('div:not(button div) { background-color: black !important; }');
-	} catch (e) {
-		document.head.appendChild(document.createElement('style')).innerHTML = 'div:not(button div) { background-color: black !important; }';
-	}
+	(document.head || document.documentElement).appendChild(document.createElement('style')).textContent = 'div:not(button div) { background-color: black !important; }';
 })();
